@@ -1,0 +1,13 @@
+# Ignore node modules and compiled/build directories
+node_modules/
+dist/
+build/
+vendor/
+# macOS/Linux artifacts
+.DS_Store
+*.log
+# IDE/editor settings
+.vscode/
+.idea/
+# Environment files
+.env*

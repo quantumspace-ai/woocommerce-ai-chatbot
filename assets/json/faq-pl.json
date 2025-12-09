@@ -1,0 +1,1580 @@
+[
+  {
+    "q": "Jakie macie metody płatności?",
+    "a": "Akceptujemy standardowe metody płatności dostępne w koszyku: karty, szybkie przelewy i BLIK (jeśli jest włączony).",
+    "tags": ["payments", "sklep"],
+    "aliases": ["metody płatności", "platnosc", "płatność", "platnosci", "platnosci karta", "bliki"]
+  },
+  {
+    "q": "Jakie produkty są bestsellerami?",
+    "a": "Nasze bestsellery zmieniają się w czasie — aktualną listę znajdziesz w sekcji polecane/bestsellery albo na stronie głównej sklepu.",
+    "tags": ["products", "bestsellery"],
+    "aliases": ["co się najlepiej sprzedaje", "najczesciej kupowane", "najbardziej popularne produkty", "hity sprzedaży"]
+  },
+  {
+    "q": "Ile trwa dostawa na Polskę?",
+    "a": "Standardowo 1–2 dni robocze.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Czy macie ekspresową dostawę na Polskę?",
+    "a": "Tak, opcja express to zazwyczaj 24 godziny.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "Jak realizujecie zamówienia weekendowe na Polskę?",
+    "a": "Weekendowe zamówienia zamówienia weekendowe kompletujemy w poniedziałek.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Czy wysyłacie pre-ordery na Polskę?",
+    "a": "Tak, wysyłamy zgodnie z datą premiery podaną na karcie produktu.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "Ile trwa dostawa na UE?",
+    "a": "Standardowo 3–5 dni roboczych.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Czy macie ekspresową dostawę na UE?",
+    "a": "Tak, opcja express to zazwyczaj 48 godzin.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "Jak realizujecie zamówienia weekendowe na UE?",
+    "a": "Weekendowe zamówienia wysyłki realizujemy od poniedziałku.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Czy wysyłacie pre-ordery na UE?",
+    "a": "Tak, wysyłamy zgodnie z datą premiery podaną na karcie produktu.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "Ile trwa dostawa na USA?",
+    "a": "Standardowo 5–7 dni roboczych.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Czy macie ekspresową dostawę na USA?",
+    "a": "Tak, opcja express to zazwyczaj 72 godziny.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "Jak realizujecie zamówienia weekendowe na USA?",
+    "a": "Weekendowe zamówienia przyjmujemy w poniedziałkowe poranki.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Czy wysyłacie pre-ordery na USA?",
+    "a": "Tak, wysyłamy zgodnie z datą premiery podaną na karcie produktu.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "Ile trwa dostawa na Kanadę?",
+    "a": "Standardowo 5–8 dni roboczych.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Czy macie ekspresową dostawę na Kanadę?",
+    "a": "Tak, opcja express to zazwyczaj 72 godziny.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "Jak realizujecie zamówienia weekendowe na Kanadę?",
+    "a": "Weekendowe zamówienia wychodzą w pierwszym dniu roboczym.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Czy wysyłacie pre-ordery na Kanadę?",
+    "a": "Tak, wysyłamy zgodnie z datą premiery podaną na karcie produktu.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "Ile trwa dostawa na Azję?",
+    "a": "Standardowo 7–10 dni roboczych.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Czy macie ekspresową dostawę na Azję?",
+    "a": "Tak, opcja express to zazwyczaj 96 godzin.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "Jak realizujecie zamówienia weekendowe na Azję?",
+    "a": "Weekendowe zamówienia przesyłamy w poniedziałki.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Czy wysyłacie pre-ordery na Azję?",
+    "a": "Tak, wysyłamy zgodnie z datą premiery podaną na karcie produktu.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "Ile trwa dostawa na Bliski Wschód?",
+    "a": "Standardowo 5–9 dni roboczych.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Czy macie ekspresową dostawę na Bliski Wschód?",
+    "a": "Tak, opcja express to zazwyczaj 72 godziny.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "Jak realizujecie zamówienia weekendowe na Bliski Wschód?",
+    "a": "Weekendowe zamówienia organizujemy w poniedziałki.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Czy wysyłacie pre-ordery na Bliski Wschód?",
+    "a": "Tak, wysyłamy zgodnie z datą premiery podaną na karcie produktu.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "Ile kosztuje dostawa na Polskę?",
+    "a": "Kurier 14,99 zł, paczkomat 11,99 zł. Darmowa powyżej 199 zł.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy jest próg darmowej dostawy na Polskę?",
+    "a": "Tak, darmowa wysyłka startuje od 199 zł.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy mogę dopłacić za ubezpieczoną wysyłkę na Polskę?",
+    "a": "Tak, przy wyborze sposobu dostawy zaznacz opcję ubezpieczenia przesyłki.",
+    "tags": [
+      "delivery",
+      "insurance"
+    ]
+  },
+  {
+    "q": "Czy łączycie kilka zamówień dla wysyłki na Polskę?",
+    "a": "Jeśli oba zamówienia nie wyszły jeszcze z magazynu, scalimy je w jedną paczkę.",
+    "tags": [
+      "delivery",
+      "combine"
+    ]
+  },
+  {
+    "q": "Ile kosztuje dostawa na UE?",
+    "a": "Kurier 39 zł, paczkomat 29 zł. Darmowa powyżej 299 zł.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy jest próg darmowej dostawy na UE?",
+    "a": "Tak, darmowa wysyłka startuje od 299 zł.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy mogę dopłacić za ubezpieczoną wysyłkę na UE?",
+    "a": "Tak, przy wyborze sposobu dostawy zaznacz opcję ubezpieczenia przesyłki.",
+    "tags": [
+      "delivery",
+      "insurance"
+    ]
+  },
+  {
+    "q": "Czy łączycie kilka zamówień dla wysyłki na UE?",
+    "a": "Jeśli oba zamówienia nie wyszły jeszcze z magazynu, scalimy je w jedną paczkę.",
+    "tags": [
+      "delivery",
+      "combine"
+    ]
+  },
+  {
+    "q": "Ile kosztuje dostawa na USA?",
+    "a": "Kurier $22, paczkomat $18. Darmowa powyżej 399 zł.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy jest próg darmowej dostawy na USA?",
+    "a": "Tak, darmowa wysyłka startuje od 399 zł.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy mogę dopłacić za ubezpieczoną wysyłkę na USA?",
+    "a": "Tak, przy wyborze sposobu dostawy zaznacz opcję ubezpieczenia przesyłki.",
+    "tags": [
+      "delivery",
+      "insurance"
+    ]
+  },
+  {
+    "q": "Czy łączycie kilka zamówień dla wysyłki na USA?",
+    "a": "Jeśli oba zamówienia nie wyszły jeszcze z magazynu, scalimy je w jedną paczkę.",
+    "tags": [
+      "delivery",
+      "combine"
+    ]
+  },
+  {
+    "q": "Ile kosztuje dostawa na Kanadę?",
+    "a": "Kurier $24, paczkomat $19. Darmowa powyżej 499 zł.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy jest próg darmowej dostawy na Kanadę?",
+    "a": "Tak, darmowa wysyłka startuje od 499 zł.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy mogę dopłacić za ubezpieczoną wysyłkę na Kanadę?",
+    "a": "Tak, przy wyborze sposobu dostawy zaznacz opcję ubezpieczenia przesyłki.",
+    "tags": [
+      "delivery",
+      "insurance"
+    ]
+  },
+  {
+    "q": "Czy łączycie kilka zamówień dla wysyłki na Kanadę?",
+    "a": "Jeśli oba zamówienia nie wyszły jeszcze z magazynu, scalimy je w jedną paczkę.",
+    "tags": [
+      "delivery",
+      "combine"
+    ]
+  },
+  {
+    "q": "Ile kosztuje dostawa na Azję?",
+    "a": "Kurier $29, paczkomat $24. Darmowa powyżej 599 zł.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy jest próg darmowej dostawy na Azję?",
+    "a": "Tak, darmowa wysyłka startuje od 599 zł.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy mogę dopłacić za ubezpieczoną wysyłkę na Azję?",
+    "a": "Tak, przy wyborze sposobu dostawy zaznacz opcję ubezpieczenia przesyłki.",
+    "tags": [
+      "delivery",
+      "insurance"
+    ]
+  },
+  {
+    "q": "Czy łączycie kilka zamówień dla wysyłki na Azję?",
+    "a": "Jeśli oba zamówienia nie wyszły jeszcze z magazynu, scalimy je w jedną paczkę.",
+    "tags": [
+      "delivery",
+      "combine"
+    ]
+  },
+  {
+    "q": "Czy mogę zapłacić kartą?",
+    "a": "Tak, obsługujemy tę metodę płatności. Opłata serwisowa to 0 zł.",
+    "tags": [
+      "payment",
+      "card"
+    ]
+  },
+  {
+    "q": "Jak szybko księgujecie płatność kartą?",
+    "a": "Księgowanie trwa zwykle natychmiast.",
+    "tags": [
+      "payment",
+      "settlement"
+    ]
+  },
+  {
+    "q": "Czy płatność kartą jest bezpieczna?",
+    "a": "Tak, korzystamy z dostawców z certyfikacją PCI DSS.",
+    "tags": [
+      "payment",
+      "security"
+    ]
+  },
+  {
+    "q": "Czy otrzymam fakturę przy płatności kartą?",
+    "a": "Tak, fakturę elektroniczną wysyłamy po zaksięgowaniu płatności.",
+    "tags": [
+      "payment",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Czy mogę zapłacić BLIK?",
+    "a": "Tak, obsługujemy tę metodę płatności. Opłata serwisowa to 0 zł.",
+    "tags": [
+      "payment",
+      "blik"
+    ]
+  },
+  {
+    "q": "Jak szybko księgujecie płatność BLIK?",
+    "a": "Księgowanie trwa zwykle kilka minut.",
+    "tags": [
+      "payment",
+      "settlement"
+    ]
+  },
+  {
+    "q": "Czy płatność BLIK jest bezpieczna?",
+    "a": "Tak, korzystamy z dostawców z certyfikacją PCI DSS.",
+    "tags": [
+      "payment",
+      "security"
+    ]
+  },
+  {
+    "q": "Czy otrzymam fakturę przy płatności BLIK?",
+    "a": "Tak, fakturę elektroniczną wysyłamy po zaksięgowaniu płatności.",
+    "tags": [
+      "payment",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Czy mogę zapłacić PayPal?",
+    "a": "Tak, obsługujemy tę metodę płatności. Opłata serwisowa to 0 zł.",
+    "tags": [
+      "payment",
+      "paypal"
+    ]
+  },
+  {
+    "q": "Jak szybko księgujecie płatność PayPal?",
+    "a": "Księgowanie trwa zwykle natychmiast.",
+    "tags": [
+      "payment",
+      "settlement"
+    ]
+  },
+  {
+    "q": "Czy płatność PayPal jest bezpieczna?",
+    "a": "Tak, korzystamy z dostawców z certyfikacją PCI DSS.",
+    "tags": [
+      "payment",
+      "security"
+    ]
+  },
+  {
+    "q": "Czy otrzymam fakturę przy płatności PayPal?",
+    "a": "Tak, fakturę elektroniczną wysyłamy po zaksięgowaniu płatności.",
+    "tags": [
+      "payment",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Czy mogę zapłacić PayPo / Klarna?",
+    "a": "Tak, obsługujemy tę metodę płatności. Opłata serwisowa to 0 zł.",
+    "tags": [
+      "payment",
+      "paypo"
+    ]
+  },
+  {
+    "q": "Jak szybko księgujecie płatność PayPo / Klarna?",
+    "a": "Księgowanie trwa zwykle po potwierdzeniu.",
+    "tags": [
+      "payment",
+      "settlement"
+    ]
+  },
+  {
+    "q": "Czy płatność PayPo / Klarna jest bezpieczna?",
+    "a": "Tak, korzystamy z dostawców z certyfikacją PCI DSS.",
+    "tags": [
+      "payment",
+      "security"
+    ]
+  },
+  {
+    "q": "Czy otrzymam fakturę przy płatności PayPo / Klarna?",
+    "a": "Tak, fakturę elektroniczną wysyłamy po zaksięgowaniu płatności.",
+    "tags": [
+      "payment",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Czy mogę zapłacić przelewem tradycyjnym?",
+    "a": "Tak, obsługujemy tę metodę płatności. Opłata serwisowa to 0 zł.",
+    "tags": [
+      "payment",
+      "bank"
+    ]
+  },
+  {
+    "q": "Jak szybko księgujecie płatność przelewem tradycyjnym?",
+    "a": "Księgowanie trwa zwykle 1 dzień roboczy.",
+    "tags": [
+      "payment",
+      "settlement"
+    ]
+  },
+  {
+    "q": "Czy płatność przelewem tradycyjnym jest bezpieczna?",
+    "a": "Tak, korzystamy z dostawców z certyfikacją PCI DSS.",
+    "tags": [
+      "payment",
+      "security"
+    ]
+  },
+  {
+    "q": "Czy otrzymam fakturę przy płatności przelewem tradycyjnym?",
+    "a": "Tak, fakturę elektroniczną wysyłamy po zaksięgowaniu płatności.",
+    "tags": [
+      "payment",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Ile mam dni na zwrot przy zmianę rozmiaru?",
+    "a": "Masz 30 dni kalendarzowych od otrzymania paczki.",
+    "tags": [
+      "returns"
+    ]
+  },
+  {
+    "q": "Jak zgłosić zwrot przy zmianę rozmiaru?",
+    "a": "Wejdź w zakładkę Zwroty w panelu klienta i wypełnij formularz.",
+    "tags": [
+      "returns",
+      "process"
+    ]
+  },
+  {
+    "q": "Czy zwrot jest darmowy?",
+    "a": "Tak, dołączamy etykietę kurierską do formularza zwrotu.",
+    "tags": [
+      "returns",
+      "cost"
+    ]
+  },
+  {
+    "q": "Kiedy otrzymam pieniądze po zwrocie?",
+    "a": "Refund trwa do 5 dni roboczych od przyjęcia paczki.",
+    "tags": [
+      "returns",
+      "refund"
+    ]
+  },
+  {
+    "q": "Ile mam dni na zwrot przy prezent nietrafiony?",
+    "a": "Masz 45 dni kalendarzowych od otrzymania paczki.",
+    "tags": [
+      "returns"
+    ]
+  },
+  {
+    "q": "Jak zgłosić zwrot przy prezent nietrafiony?",
+    "a": "Wejdź w zakładkę Zwroty w panelu klienta i wypełnij formularz.",
+    "tags": [
+      "returns",
+      "process"
+    ]
+  },
+  {
+    "q": "Czy zwrot jest darmowy?",
+    "a": "Tak, dołączamy etykietę kurierską do formularza zwrotu.",
+    "tags": [
+      "returns",
+      "cost"
+    ]
+  },
+  {
+    "q": "Kiedy otrzymam pieniądze po zwrocie?",
+    "a": "Refund trwa do 5 dni roboczych od przyjęcia paczki.",
+    "tags": [
+      "returns",
+      "refund"
+    ]
+  },
+  {
+    "q": "Ile mam dni na zwrot przy zakup przedsprzedażowy?",
+    "a": "Masz 60 dni kalendarzowych od otrzymania paczki.",
+    "tags": [
+      "returns"
+    ]
+  },
+  {
+    "q": "Jak zgłosić zwrot przy zakup przedsprzedażowy?",
+    "a": "Wejdź w zakładkę Zwroty w panelu klienta i wypełnij formularz.",
+    "tags": [
+      "returns",
+      "process"
+    ]
+  },
+  {
+    "q": "Czy zwrot jest darmowy?",
+    "a": "Tak, dołączamy etykietę kurierską do formularza zwrotu.",
+    "tags": [
+      "returns",
+      "cost"
+    ]
+  },
+  {
+    "q": "Kiedy otrzymam pieniądze po zwrocie?",
+    "a": "Refund trwa do 5 dni roboczych od przyjęcia paczki.",
+    "tags": [
+      "returns",
+      "refund"
+    ]
+  },
+  {
+    "q": "Ile mam dni na zwrot przy zakup online?",
+    "a": "Masz 14 dni kalendarzowych od otrzymania paczki.",
+    "tags": [
+      "returns"
+    ]
+  },
+  {
+    "q": "Jak zgłosić zwrot przy zakup online?",
+    "a": "Wejdź w zakładkę Zwroty w panelu klienta i wypełnij formularz.",
+    "tags": [
+      "returns",
+      "process"
+    ]
+  },
+  {
+    "q": "Czy zwrot jest darmowy?",
+    "a": "Tak, dołączamy etykietę kurierską do formularza zwrotu.",
+    "tags": [
+      "returns",
+      "cost"
+    ]
+  },
+  {
+    "q": "Kiedy otrzymam pieniądze po zwrocie?",
+    "a": "Refund trwa do 5 dni roboczych od przyjęcia paczki.",
+    "tags": [
+      "returns",
+      "refund"
+    ]
+  },
+  {
+    "q": "Ile mam dni na zwrot przy zamówienie biznesowe?",
+    "a": "Masz 21 dni kalendarzowych od otrzymania paczki.",
+    "tags": [
+      "returns"
+    ]
+  },
+  {
+    "q": "Jak zgłosić zwrot przy zamówienie biznesowe?",
+    "a": "Wejdź w zakładkę Zwroty w panelu klienta i wypełnij formularz.",
+    "tags": [
+      "returns",
+      "process"
+    ]
+  },
+  {
+    "q": "Czy zwrot jest darmowy?",
+    "a": "Tak, dołączamy etykietę kurierską do formularza zwrotu.",
+    "tags": [
+      "returns",
+      "cost"
+    ]
+  },
+  {
+    "q": "Kiedy otrzymam pieniądze po zwrocie?",
+    "a": "Refund trwa do 5 dni roboczych od przyjęcia paczki.",
+    "tags": [
+      "returns",
+      "refund"
+    ]
+  },
+  {
+    "q": "Jak działa gwarancja na elektronikę?",
+    "a": "Standardowo trwa 24 miesiące. Reklamację zgłaszasz przez panel klienta.",
+    "tags": [
+      "warranty"
+    ]
+  },
+  {
+    "q": "Czy oferujecie naprawę czy wymianę?",
+    "a": "Najpierw diagnozujemy produkt. Jeśli naprawa jest niemożliwa, wysyłamy nowy egzemplarz.",
+    "tags": [
+      "warranty",
+      "repair"
+    ]
+  },
+  {
+    "q": "Czy otrzymam produkt zastępczy?",
+    "a": "Przy sprzęcie powyżej 1000 zł udostępniamy egzemplarz zastępczy.",
+    "tags": [
+      "warranty",
+      "replacement"
+    ]
+  },
+  {
+    "q": "Jak śledzić status reklamacji?",
+    "a": "Status widać w zakładce Reklamacje w Twoim profilu.",
+    "tags": [
+      "warranty",
+      "tracking"
+    ]
+  },
+  {
+    "q": "Jak działa gwarancja na galanterię skórzaną?",
+    "a": "Standardowo trwa 12 miesięcy. Reklamację zgłaszasz przez panel klienta.",
+    "tags": [
+      "warranty"
+    ]
+  },
+  {
+    "q": "Czy oferujecie naprawę czy wymianę?",
+    "a": "Najpierw diagnozujemy produkt. Jeśli naprawa jest niemożliwa, wysyłamy nowy egzemplarz.",
+    "tags": [
+      "warranty",
+      "repair"
+    ]
+  },
+  {
+    "q": "Czy otrzymam produkt zastępczy?",
+    "a": "Przy sprzęcie powyżej 1000 zł udostępniamy egzemplarz zastępczy.",
+    "tags": [
+      "warranty",
+      "replacement"
+    ]
+  },
+  {
+    "q": "Jak śledzić status reklamacji?",
+    "a": "Status widać w zakładce Reklamacje w Twoim profilu.",
+    "tags": [
+      "warranty",
+      "tracking"
+    ]
+  },
+  {
+    "q": "Jak działa gwarancja na sprzęt fitness?",
+    "a": "Standardowo trwa 18 miesięcy. Reklamację zgłaszasz przez panel klienta.",
+    "tags": [
+      "warranty"
+    ]
+  },
+  {
+    "q": "Czy oferujecie naprawę czy wymianę?",
+    "a": "Najpierw diagnozujemy produkt. Jeśli naprawa jest niemożliwa, wysyłamy nowy egzemplarz.",
+    "tags": [
+      "warranty",
+      "repair"
+    ]
+  },
+  {
+    "q": "Czy otrzymam produkt zastępczy?",
+    "a": "Przy sprzęcie powyżej 1000 zł udostępniamy egzemplarz zastępczy.",
+    "tags": [
+      "warranty",
+      "replacement"
+    ]
+  },
+  {
+    "q": "Jak śledzić status reklamacji?",
+    "a": "Status widać w zakładce Reklamacje w Twoim profilu.",
+    "tags": [
+      "warranty",
+      "tracking"
+    ]
+  },
+  {
+    "q": "Jak działa gwarancja na biżuterię?",
+    "a": "Standardowo trwa 12 miesięcy. Reklamację zgłaszasz przez panel klienta.",
+    "tags": [
+      "warranty"
+    ]
+  },
+  {
+    "q": "Czy oferujecie naprawę czy wymianę?",
+    "a": "Najpierw diagnozujemy produkt. Jeśli naprawa jest niemożliwa, wysyłamy nowy egzemplarz.",
+    "tags": [
+      "warranty",
+      "repair"
+    ]
+  },
+  {
+    "q": "Czy otrzymam produkt zastępczy?",
+    "a": "Przy sprzęcie powyżej 1000 zł udostępniamy egzemplarz zastępczy.",
+    "tags": [
+      "warranty",
+      "replacement"
+    ]
+  },
+  {
+    "q": "Jak śledzić status reklamacji?",
+    "a": "Status widać w zakładce Reklamacje w Twoim profilu.",
+    "tags": [
+      "warranty",
+      "tracking"
+    ]
+  },
+  {
+    "q": "Jak działa gwarancja na akcesoria dziecięce?",
+    "a": "Standardowo trwa 24 miesiące. Reklamację zgłaszasz przez panel klienta.",
+    "tags": [
+      "warranty"
+    ]
+  },
+  {
+    "q": "Czy oferujecie naprawę czy wymianę?",
+    "a": "Najpierw diagnozujemy produkt. Jeśli naprawa jest niemożliwa, wysyłamy nowy egzemplarz.",
+    "tags": [
+      "warranty",
+      "repair"
+    ]
+  },
+  {
+    "q": "Czy otrzymam produkt zastępczy?",
+    "a": "Przy sprzęcie powyżej 1000 zł udostępniamy egzemplarz zastępczy.",
+    "tags": [
+      "warranty",
+      "replacement"
+    ]
+  },
+  {
+    "q": "Jak śledzić status reklamacji?",
+    "a": "Status widać w zakładce Reklamacje w Twoim profilu.",
+    "tags": [
+      "warranty",
+      "tracking"
+    ]
+  },
+  {
+    "q": "Czy mogę poprosić o zmianę adresu?",
+    "a": "Jeśli zamówienie nie opuściło magazynu, napisz do nas na czacie lub e-mail.",
+    "tags": [
+      "orders",
+      "changes"
+    ]
+  },
+  {
+    "q": "Czy mogę anulować zamówienie?",
+    "a": "Tak, do momentu wydania paczki do przewoźnika.",
+    "tags": [
+      "orders",
+      "cancel"
+    ]
+  },
+  {
+    "q": "Czy mogę zmienić metodę płatności po złożeniu zamówienia?",
+    "a": "Wystawimy nowy link do płatności – skontaktuj się z supportem.",
+    "tags": [
+      "orders",
+      "payment"
+    ]
+  },
+  {
+    "q": "Jak dodać numer NIP do zamówienia?",
+    "a": "NIP wpiszesz w polu Faktura. Jeśli już złożyłeś zamówienie, odpisz na potwierdzenie zakupu.",
+    "tags": [
+      "orders",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Czy mogę poprosić o dodanie produktu?",
+    "a": "Jeśli zamówienie nie opuściło magazynu, napisz do nas na czacie lub e-mail.",
+    "tags": [
+      "orders",
+      "changes"
+    ]
+  },
+  {
+    "q": "Czy mogę anulować zamówienie?",
+    "a": "Tak, do momentu wydania paczki do przewoźnika.",
+    "tags": [
+      "orders",
+      "cancel"
+    ]
+  },
+  {
+    "q": "Czy mogę zmienić metodę płatności po złożeniu zamówienia?",
+    "a": "Wystawimy nowy link do płatności – skontaktuj się z supportem.",
+    "tags": [
+      "orders",
+      "payment"
+    ]
+  },
+  {
+    "q": "Jak dodać numer NIP do zamówienia?",
+    "a": "NIP wpiszesz w polu Faktura. Jeśli już złożyłeś zamówienie, odpisz na potwierdzenie zakupu.",
+    "tags": [
+      "orders",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Czy mogę poprosić o połączenie zamówień?",
+    "a": "Jeśli zamówienie nie opuściło magazynu, napisz do nas na czacie lub e-mail.",
+    "tags": [
+      "orders",
+      "changes"
+    ]
+  },
+  {
+    "q": "Czy mogę anulować zamówienie?",
+    "a": "Tak, do momentu wydania paczki do przewoźnika.",
+    "tags": [
+      "orders",
+      "cancel"
+    ]
+  },
+  {
+    "q": "Czy mogę zmienić metodę płatności po złożeniu zamówienia?",
+    "a": "Wystawimy nowy link do płatności – skontaktuj się z supportem.",
+    "tags": [
+      "orders",
+      "payment"
+    ]
+  },
+  {
+    "q": "Jak dodać numer NIP do zamówienia?",
+    "a": "NIP wpiszesz w polu Faktura. Jeśli już złożyłeś zamówienie, odpisz na potwierdzenie zakupu.",
+    "tags": [
+      "orders",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Czy mogę poprosić o zmianę formy dostawy?",
+    "a": "Jeśli zamówienie nie opuściło magazynu, napisz do nas na czacie lub e-mail.",
+    "tags": [
+      "orders",
+      "changes"
+    ]
+  },
+  {
+    "q": "Czy mogę anulować zamówienie?",
+    "a": "Tak, do momentu wydania paczki do przewoźnika.",
+    "tags": [
+      "orders",
+      "cancel"
+    ]
+  },
+  {
+    "q": "Czy mogę zmienić metodę płatności po złożeniu zamówienia?",
+    "a": "Wystawimy nowy link do płatności – skontaktuj się z supportem.",
+    "tags": [
+      "orders",
+      "payment"
+    ]
+  },
+  {
+    "q": "Jak dodać numer NIP do zamówienia?",
+    "a": "NIP wpiszesz w polu Faktura. Jeśli już złożyłeś zamówienie, odpisz na potwierdzenie zakupu.",
+    "tags": [
+      "orders",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Czy mogę poprosić o aktualizację wiadomości do prezentu?",
+    "a": "Jeśli zamówienie nie opuściło magazynu, napisz do nas na czacie lub e-mail.",
+    "tags": [
+      "orders",
+      "changes"
+    ]
+  },
+  {
+    "q": "Czy mogę anulować zamówienie?",
+    "a": "Tak, do momentu wydania paczki do przewoźnika.",
+    "tags": [
+      "orders",
+      "cancel"
+    ]
+  },
+  {
+    "q": "Czy mogę zmienić metodę płatności po złożeniu zamówienia?",
+    "a": "Wystawimy nowy link do płatności – skontaktuj się z supportem.",
+    "tags": [
+      "orders",
+      "payment"
+    ]
+  },
+  {
+    "q": "Jak dodać numer NIP do zamówienia?",
+    "a": "NIP wpiszesz w polu Faktura. Jeśli już złożyłeś zamówienie, odpisz na potwierdzenie zakupu.",
+    "tags": [
+      "orders",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Jak dołączyć do poziomu Silver?",
+    "a": "Wystarczy wydać 500 zł w ciągu 12 miesięcy.",
+    "tags": [
+      "loyalty"
+    ]
+  },
+  {
+    "q": "Jakie korzyści ma poziom Silver?",
+    "a": "Otrzymujesz 5% rabatu.",
+    "tags": [
+      "loyalty",
+      "benefits"
+    ]
+  },
+  {
+    "q": "Czy punkty wygasają?",
+    "a": "Tak, po 12 miesiącach nieaktywności.",
+    "tags": [
+      "loyalty",
+      "points"
+    ]
+  },
+  {
+    "q": "Czy mogę przenieść punkty między kontami?",
+    "a": "Nie, punkty przypisane są do jednego konta klienta.",
+    "tags": [
+      "loyalty",
+      "accounts"
+    ]
+  },
+  {
+    "q": "Jak dołączyć do poziomu Gold?",
+    "a": "Wystarczy wydać 1200 zł w ciągu 12 miesięcy.",
+    "tags": [
+      "loyalty"
+    ]
+  },
+  {
+    "q": "Jakie korzyści ma poziom Gold?",
+    "a": "Otrzymujesz 10% rabatu + darmowa dostawa.",
+    "tags": [
+      "loyalty",
+      "benefits"
+    ]
+  },
+  {
+    "q": "Czy punkty wygasają?",
+    "a": "Tak, po 12 miesiącach nieaktywności.",
+    "tags": [
+      "loyalty",
+      "points"
+    ]
+  },
+  {
+    "q": "Czy mogę przenieść punkty między kontami?",
+    "a": "Nie, punkty przypisane są do jednego konta klienta.",
+    "tags": [
+      "loyalty",
+      "accounts"
+    ]
+  },
+  {
+    "q": "Jak dołączyć do poziomu Platinum?",
+    "a": "Wystarczy wydać 2500 zł w ciągu 12 miesięcy.",
+    "tags": [
+      "loyalty"
+    ]
+  },
+  {
+    "q": "Jakie korzyści ma poziom Platinum?",
+    "a": "Otrzymujesz 15% rabatu i hotline VIP.",
+    "tags": [
+      "loyalty",
+      "benefits"
+    ]
+  },
+  {
+    "q": "Czy punkty wygasają?",
+    "a": "Tak, po 12 miesiącach nieaktywności.",
+    "tags": [
+      "loyalty",
+      "points"
+    ]
+  },
+  {
+    "q": "Czy mogę przenieść punkty między kontami?",
+    "a": "Nie, punkty przypisane są do jednego konta klienta.",
+    "tags": [
+      "loyalty",
+      "accounts"
+    ]
+  },
+  {
+    "q": "Jak dołączyć do poziomu Creator?",
+    "a": "Wystarczy wydać 5000 zł w ciągu 12 miesięcy.",
+    "tags": [
+      "loyalty"
+    ]
+  },
+  {
+    "q": "Jakie korzyści ma poziom Creator?",
+    "a": "Otrzymujesz dedykowany opiekun.",
+    "tags": [
+      "loyalty",
+      "benefits"
+    ]
+  },
+  {
+    "q": "Czy punkty wygasają?",
+    "a": "Tak, po 12 miesiącach nieaktywności.",
+    "tags": [
+      "loyalty",
+      "points"
+    ]
+  },
+  {
+    "q": "Czy mogę przenieść punkty między kontami?",
+    "a": "Nie, punkty przypisane są do jednego konta klienta.",
+    "tags": [
+      "loyalty",
+      "accounts"
+    ]
+  },
+  {
+    "q": "Czy wróci wysprzedany rozmiar?",
+    "a": "Zostaw e-mail w module powiadomień, damy znać przy restocku.",
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "q": "Jak sprawdzić status magazynowy?",
+    "a": "Na karcie produktu widzisz realtime stock oraz liczbę ostatnich sztuk.",
+    "tags": [
+      "stock",
+      "status"
+    ]
+  },
+  {
+    "q": "Czy mogę zarezerwować produkt?",
+    "a": "Tak, w systemie rezerwujemy go na 24h po opłaceniu zaliczki.",
+    "tags": [
+      "stock",
+      "reservation"
+    ]
+  },
+  {
+    "q": "Czy przyjmujecie zamówienia hurtowe?",
+    "a": "Napisz do naszego działu B2B – przygotujemy ofertę.",
+    "tags": [
+      "stock",
+      "b2b"
+    ]
+  },
+  {
+    "q": "Czy wróci zapowiedź kolekcji?",
+    "a": "Zostaw e-mail w module powiadomień, damy znać przy restocku.",
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "q": "Jak sprawdzić status magazynowy?",
+    "a": "Na karcie produktu widzisz realtime stock oraz liczbę ostatnich sztuk.",
+    "tags": [
+      "stock",
+      "status"
+    ]
+  },
+  {
+    "q": "Czy mogę zarezerwować produkt?",
+    "a": "Tak, w systemie rezerwujemy go na 24h po opłaceniu zaliczki.",
+    "tags": [
+      "stock",
+      "reservation"
+    ]
+  },
+  {
+    "q": "Czy przyjmujecie zamówienia hurtowe?",
+    "a": "Napisz do naszego działu B2B – przygotujemy ofertę.",
+    "tags": [
+      "stock",
+      "b2b"
+    ]
+  },
+  {
+    "q": "Czy wróci limitowana edycja?",
+    "a": "Zostaw e-mail w module powiadomień, damy znać przy restocku.",
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "q": "Jak sprawdzić status magazynowy?",
+    "a": "Na karcie produktu widzisz realtime stock oraz liczbę ostatnich sztuk.",
+    "tags": [
+      "stock",
+      "status"
+    ]
+  },
+  {
+    "q": "Czy mogę zarezerwować produkt?",
+    "a": "Tak, w systemie rezerwujemy go na 24h po opłaceniu zaliczki.",
+    "tags": [
+      "stock",
+      "reservation"
+    ]
+  },
+  {
+    "q": "Czy przyjmujecie zamówienia hurtowe?",
+    "a": "Napisz do naszego działu B2B – przygotujemy ofertę.",
+    "tags": [
+      "stock",
+      "b2b"
+    ]
+  },
+  {
+    "q": "Czy wróci produkt personalizowany?",
+    "a": "Zostaw e-mail w module powiadomień, damy znać przy restocku.",
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "q": "Jak sprawdzić status magazynowy?",
+    "a": "Na karcie produktu widzisz realtime stock oraz liczbę ostatnich sztuk.",
+    "tags": [
+      "stock",
+      "status"
+    ]
+  },
+  {
+    "q": "Czy mogę zarezerwować produkt?",
+    "a": "Tak, w systemie rezerwujemy go na 24h po opłaceniu zaliczki.",
+    "tags": [
+      "stock",
+      "reservation"
+    ]
+  },
+  {
+    "q": "Czy przyjmujecie zamówienia hurtowe?",
+    "a": "Napisz do naszego działu B2B – przygotujemy ofertę.",
+    "tags": [
+      "stock",
+      "b2b"
+    ]
+  },
+  {
+    "q": "Czy wróci produkty digital?",
+    "a": "Zostaw e-mail w module powiadomień, damy znać przy restocku.",
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "q": "Jak sprawdzić status magazynowy?",
+    "a": "Na karcie produktu widzisz realtime stock oraz liczbę ostatnich sztuk.",
+    "tags": [
+      "stock",
+      "status"
+    ]
+  },
+  {
+    "q": "Czy mogę zarezerwować produkt?",
+    "a": "Tak, w systemie rezerwujemy go na 24h po opłaceniu zaliczki.",
+    "tags": [
+      "stock",
+      "reservation"
+    ]
+  },
+  {
+    "q": "Czy przyjmujecie zamówienia hurtowe?",
+    "a": "Napisz do naszego działu B2B – przygotujemy ofertę.",
+    "tags": [
+      "stock",
+      "b2b"
+    ]
+  },
+  {
+    "q": "Jak skontaktować się przez czat na stronie?",
+    "a": "Jesteśmy dostępni 09:00–21:00.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "q": "Czy macie wsparcie po angielsku?",
+    "a": "Tak, wybierz język w widgetcie czatu.",
+    "tags": [
+      "support",
+      "language"
+    ]
+  },
+  {
+    "q": "Jak skontaktować się przez Instagram DM?",
+    "a": "Jesteśmy dostępni 10:00–22:00.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "q": "Czy macie wsparcie po angielsku?",
+    "a": "Tak, wybierz język w widgetcie czatu.",
+    "tags": [
+      "support",
+      "language"
+    ]
+  },
+  {
+    "q": "Jak skontaktować się przez TikTok DM?",
+    "a": "Jesteśmy dostępni 10:00–22:00.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "q": "Czy macie wsparcie po angielsku?",
+    "a": "Tak, wybierz język w widgetcie czatu.",
+    "tags": [
+      "support",
+      "language"
+    ]
+  },
+  {
+    "q": "Jak skontaktować się przez telefon?",
+    "a": "Jesteśmy dostępni 09:00–17:00.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "q": "Czy macie wsparcie po angielsku?",
+    "a": "Tak, wybierz język w widgetcie czatu.",
+    "tags": [
+      "support",
+      "language"
+    ]
+  },
+  {
+    "q": "Jak skontaktować się przez e-mail support@...?",
+    "a": "Jesteśmy dostępni 24/7.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "q": "Czy macie wsparcie po angielsku?",
+    "a": "Tak, wybierz język w widgetcie czatu.",
+    "tags": [
+      "support",
+      "language"
+    ]
+  },
+  {
+    "q": "Czy mogę dodać personalizowaną notkę?",
+    "a": "Tak, zaznacz opcję Pakowanie na etapie koszyka.",
+    "tags": [
+      "packaging"
+    ]
+  },
+  {
+    "q": "Czy opakowanie jest płatne?",
+    "a": "Pierwsze pakowanie prezentowe jest gratis, kolejne kosztuje 9,99 zł.",
+    "tags": [
+      "packaging",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy dołączacie paragon do prezentu?",
+    "a": "Nie, dokument fiskalny wysyłamy wyłącznie e-mailem.",
+    "tags": [
+      "packaging",
+      "receipt"
+    ]
+  },
+  {
+    "q": "Czy mogę wskazać dzień doręczenia prezentu?",
+    "a": "Tak, wpisz preferowaną datę w komentarzu do zamówienia.",
+    "tags": [
+      "packaging",
+      "delivery"
+    ]
+  },
+  {
+    "q": "Czy mogę dodać papier prezentowy?",
+    "a": "Tak, zaznacz opcję Pakowanie na etapie koszyka.",
+    "tags": [
+      "packaging"
+    ]
+  },
+  {
+    "q": "Czy opakowanie jest płatne?",
+    "a": "Pierwsze pakowanie prezentowe jest gratis, kolejne kosztuje 9,99 zł.",
+    "tags": [
+      "packaging",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy dołączacie paragon do prezentu?",
+    "a": "Nie, dokument fiskalny wysyłamy wyłącznie e-mailem.",
+    "tags": [
+      "packaging",
+      "receipt"
+    ]
+  },
+  {
+    "q": "Czy mogę wskazać dzień doręczenia prezentu?",
+    "a": "Tak, wpisz preferowaną datę w komentarzu do zamówienia.",
+    "tags": [
+      "packaging",
+      "delivery"
+    ]
+  },
+  {
+    "q": "Czy mogę dodać opakowanie eco?",
+    "a": "Tak, zaznacz opcję Pakowanie na etapie koszyka.",
+    "tags": [
+      "packaging"
+    ]
+  },
+  {
+    "q": "Czy opakowanie jest płatne?",
+    "a": "Pierwsze pakowanie prezentowe jest gratis, kolejne kosztuje 9,99 zł.",
+    "tags": [
+      "packaging",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy dołączacie paragon do prezentu?",
+    "a": "Nie, dokument fiskalny wysyłamy wyłącznie e-mailem.",
+    "tags": [
+      "packaging",
+      "receipt"
+    ]
+  },
+  {
+    "q": "Czy mogę wskazać dzień doręczenia prezentu?",
+    "a": "Tak, wpisz preferowaną datę w komentarzu do zamówienia.",
+    "tags": [
+      "packaging",
+      "delivery"
+    ]
+  },
+  {
+    "q": "Czy mogę dodać torbę prezentową?",
+    "a": "Tak, zaznacz opcję Pakowanie na etapie koszyka.",
+    "tags": [
+      "packaging"
+    ]
+  },
+  {
+    "q": "Czy opakowanie jest płatne?",
+    "a": "Pierwsze pakowanie prezentowe jest gratis, kolejne kosztuje 9,99 zł.",
+    "tags": [
+      "packaging",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy dołączacie paragon do prezentu?",
+    "a": "Nie, dokument fiskalny wysyłamy wyłącznie e-mailem.",
+    "tags": [
+      "packaging",
+      "receipt"
+    ]
+  },
+  {
+    "q": "Czy mogę wskazać dzień doręczenia prezentu?",
+    "a": "Tak, wpisz preferowaną datę w komentarzu do zamówienia.",
+    "tags": [
+      "packaging",
+      "delivery"
+    ]
+  },
+  {
+    "q": "Czy mogę dodać naklejki kolekcjonerskie?",
+    "a": "Tak, zaznacz opcję Pakowanie na etapie koszyka.",
+    "tags": [
+      "packaging"
+    ]
+  },
+  {
+    "q": "Czy opakowanie jest płatne?",
+    "a": "Pierwsze pakowanie prezentowe jest gratis, kolejne kosztuje 9,99 zł.",
+    "tags": [
+      "packaging",
+      "cost"
+    ]
+  },
+  {
+    "q": "Czy dołączacie paragon do prezentu?",
+    "a": "Nie, dokument fiskalny wysyłamy wyłącznie e-mailem.",
+    "tags": [
+      "packaging",
+      "receipt"
+    ]
+  },
+  {
+    "q": "Czy mogę wskazać dzień doręczenia prezentu?",
+    "a": "Tak, wpisz preferowaną datę w komentarzu do zamówienia.",
+    "tags": [
+      "packaging",
+      "delivery"
+    ]
+  },
+  {
+    "q": "czy otrzymam link do śledzenia?",
+    "a": "Tak, link wysyłamy e-mailem zaraz po wydaniu paczki kurierowi.",
+    "tags": [
+      "tracking"
+    ]
+  },
+  {
+    "q": "Czy mogę zmienić termin doręczenia z poziomu tracking?",
+    "a": "Tak, przewoźnik udostępnia przełożenie terminu i zmianę adresu.",
+    "tags": [
+      "tracking",
+      "changes"
+    ]
+  },
+  {
+    "q": "czy wysyłacie SMS o doręczeniu?",
+    "a": "Tak, link wysyłamy e-mailem zaraz po wydaniu paczki kurierowi.",
+    "tags": [
+      "tracking"
+    ]
+  },
+  {
+    "q": "Czy mogę zmienić termin doręczenia z poziomu tracking?",
+    "a": "Tak, przewoźnik udostępnia przełożenie terminu i zmianę adresu.",
+    "tags": [
+      "tracking",
+      "changes"
+    ]
+  },
+  {
+    "q": "co oznacza status w przygotowaniu?",
+    "a": "Tak, link wysyłamy e-mailem zaraz po wydaniu paczki kurierowi.",
+    "tags": [
+      "tracking"
+    ]
+  },
+  {
+    "q": "Czy mogę zmienić termin doręczenia z poziomu tracking?",
+    "a": "Tak, przewoźnik udostępnia przełożenie terminu i zmianę adresu.",
+    "tags": [
+      "tracking",
+      "changes"
+    ]
+  },
+  {
+    "q": "czy zamówienie może przyjść w kilku paczkach?",
+    "a": "Tak, link wysyłamy e-mailem zaraz po wydaniu paczki kurierowi.",
+    "tags": [
+      "tracking"
+    ]
+  },
+  {
+    "q": "Czy mogę zmienić termin doręczenia z poziomu tracking?",
+    "a": "Tak, przewoźnik udostępnia przełożenie terminu i zmianę adresu.",
+    "tags": [
+      "tracking",
+      "changes"
+    ]
+  },
+  {
+    "q": "co zrobić, gdy tracking nie aktualizuje się?",
+    "a": "Tak, link wysyłamy e-mailem zaraz po wydaniu paczki kurierowi.",
+    "tags": [
+      "tracking"
+    ]
+  },
+  {
+    "q": "Czy mogę zmienić termin doręczenia z poziomu tracking?",
+    "a": "Tak, przewoźnik udostępnia przełożenie terminu i zmianę adresu.",
+    "tags": [
+      "tracking",
+      "changes"
+    ]
+  }
+]

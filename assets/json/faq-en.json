@@ -1,0 +1,1580 @@
+[
+  {
+    "q": "What payment methods do you accept?",
+    "a": "We accept the standard checkout methods shown in your cart, typically cards, fast transfers, and local wallets where available.",
+    "tags": ["payments", "store"],
+    "aliases": ["payment options", "how can I pay", "cards", "wallets"]
+  },
+  {
+    "q": "What are your best sellers?",
+    "a": "Our best sellers change over time — check the featured/bestsellers section on the store homepage for the latest picks.",
+    "tags": ["products", "bestsellers"],
+    "aliases": ["most popular products", "top sellers", "popular items"]
+  },
+  {
+    "q": "How long does shipping to Poland take?",
+    "a": "Standard delivery usually takes 1–2 business days.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Do you offer express delivery to Poland?",
+    "a": "Yes, express shipping typically takes 24 hours.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "How are weekend orders shipped to Poland?",
+    "a": "Weekend orders are weekend orders are packed on Monday morning.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Do you ship pre-orders to Poland?",
+    "a": "Yes, they leave according to the release date shown on the product page.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "How long does shipping to the EU take?",
+    "a": "Standard delivery usually takes 3–5 business days.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Do you offer express delivery to the EU?",
+    "a": "Yes, express shipping typically takes 48 hours.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "How are weekend orders shipped to the EU?",
+    "a": "Weekend orders are shipments go out on the nearest Monday.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Do you ship pre-orders to the EU?",
+    "a": "Yes, they leave according to the release date shown on the product page.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "How long does shipping to the USA take?",
+    "a": "Standard delivery usually takes 5–7 business days.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Do you offer express delivery to the USA?",
+    "a": "Yes, express shipping typically takes 72 hours.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "How are weekend orders shipped to the USA?",
+    "a": "Weekend orders are processed first thing on Monday.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Do you ship pre-orders to the USA?",
+    "a": "Yes, they leave according to the release date shown on the product page.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "How long does shipping to Canada take?",
+    "a": "Standard delivery usually takes 5–8 business days.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Do you offer express delivery to Canada?",
+    "a": "Yes, express shipping typically takes 72 hours.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "How are weekend orders shipped to Canada?",
+    "a": "Weekend orders are sent on the first business day.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Do you ship pre-orders to Canada?",
+    "a": "Yes, they leave according to the release date shown on the product page.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "How long does shipping to Asia take?",
+    "a": "Standard delivery usually takes 7–10 business days.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Do you offer express delivery to Asia?",
+    "a": "Yes, express shipping typically takes 96 hours.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "How are weekend orders shipped to Asia?",
+    "a": "Weekend orders are dispatched every Monday.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Do you ship pre-orders to Asia?",
+    "a": "Yes, they leave according to the release date shown on the product page.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "How long does shipping to the Middle East take?",
+    "a": "Standard delivery usually takes 5–9 business days.",
+    "tags": [
+      "delivery",
+      "timeline"
+    ]
+  },
+  {
+    "q": "Do you offer express delivery to the Middle East?",
+    "a": "Yes, express shipping typically takes 72 hours.",
+    "tags": [
+      "delivery",
+      "express"
+    ]
+  },
+  {
+    "q": "How are weekend orders shipped to the Middle East?",
+    "a": "Weekend orders are organized each Monday.",
+    "tags": [
+      "delivery",
+      "weekend"
+    ]
+  },
+  {
+    "q": "Do you ship pre-orders to the Middle East?",
+    "a": "Yes, they leave according to the release date shown on the product page.",
+    "tags": [
+      "delivery",
+      "preorder"
+    ]
+  },
+  {
+    "q": "How much is shipping to Poland?",
+    "a": "Courier costs 14.99 PLN, lockers 11.99 PLN. Free above 199 PLN.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Is there free shipping to Poland?",
+    "a": "Yes, orders above 199 PLN qualify for free shipping.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Can I pay extra for insured shipping to Poland?",
+    "a": "Yes, choose the insured shipping option during checkout.",
+    "tags": [
+      "delivery",
+      "insurance"
+    ]
+  },
+  {
+    "q": "Do you combine multiple orders going to Poland?",
+    "a": "If both packages haven't left the warehouse yet, we can merge them into one shipment.",
+    "tags": [
+      "delivery",
+      "combine"
+    ]
+  },
+  {
+    "q": "How much is shipping to the EU?",
+    "a": "Courier costs 39 PLN, lockers 29 PLN. Free above 299 PLN.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Is there free shipping to the EU?",
+    "a": "Yes, orders above 299 PLN qualify for free shipping.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Can I pay extra for insured shipping to the EU?",
+    "a": "Yes, choose the insured shipping option during checkout.",
+    "tags": [
+      "delivery",
+      "insurance"
+    ]
+  },
+  {
+    "q": "Do you combine multiple orders going to the EU?",
+    "a": "If both packages haven't left the warehouse yet, we can merge them into one shipment.",
+    "tags": [
+      "delivery",
+      "combine"
+    ]
+  },
+  {
+    "q": "How much is shipping to the USA?",
+    "a": "Courier costs $22, lockers $18. Free above $99.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Is there free shipping to the USA?",
+    "a": "Yes, orders above $99 qualify for free shipping.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Can I pay extra for insured shipping to the USA?",
+    "a": "Yes, choose the insured shipping option during checkout.",
+    "tags": [
+      "delivery",
+      "insurance"
+    ]
+  },
+  {
+    "q": "Do you combine multiple orders going to the USA?",
+    "a": "If both packages haven't left the warehouse yet, we can merge them into one shipment.",
+    "tags": [
+      "delivery",
+      "combine"
+    ]
+  },
+  {
+    "q": "How much is shipping to Canada?",
+    "a": "Courier costs $24, lockers $19. Free above $129.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Is there free shipping to Canada?",
+    "a": "Yes, orders above $129 qualify for free shipping.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Can I pay extra for insured shipping to Canada?",
+    "a": "Yes, choose the insured shipping option during checkout.",
+    "tags": [
+      "delivery",
+      "insurance"
+    ]
+  },
+  {
+    "q": "Do you combine multiple orders going to Canada?",
+    "a": "If both packages haven't left the warehouse yet, we can merge them into one shipment.",
+    "tags": [
+      "delivery",
+      "combine"
+    ]
+  },
+  {
+    "q": "How much is shipping to Asia?",
+    "a": "Courier costs $29, lockers $24. Free above $149.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Is there free shipping to Asia?",
+    "a": "Yes, orders above $149 qualify for free shipping.",
+    "tags": [
+      "delivery",
+      "cost"
+    ]
+  },
+  {
+    "q": "Can I pay extra for insured shipping to Asia?",
+    "a": "Yes, choose the insured shipping option during checkout.",
+    "tags": [
+      "delivery",
+      "insurance"
+    ]
+  },
+  {
+    "q": "Do you combine multiple orders going to Asia?",
+    "a": "If both packages haven't left the warehouse yet, we can merge them into one shipment.",
+    "tags": [
+      "delivery",
+      "combine"
+    ]
+  },
+  {
+    "q": "Can I pay with card?",
+    "a": "Yes, we support this payment option. Service fee: 0 PLN.",
+    "tags": [
+      "payment",
+      "card"
+    ]
+  },
+  {
+    "q": "How fast is a card payment confirmed?",
+    "a": "It usually clears within natychmiast.",
+    "tags": [
+      "payment",
+      "settlement"
+    ]
+  },
+  {
+    "q": "Is paying with card secure?",
+    "a": "Yes, we partner with PCI DSS certified processors.",
+    "tags": [
+      "payment",
+      "security"
+    ]
+  },
+  {
+    "q": "Will I receive an invoice when paying via card?",
+    "a": "Yes, we'll email you the invoice right after the payment clears.",
+    "tags": [
+      "payment",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Can I pay with BLIK?",
+    "a": "Yes, we support this payment option. Service fee: 0 PLN.",
+    "tags": [
+      "payment",
+      "blik"
+    ]
+  },
+  {
+    "q": "How fast is a BLIK payment confirmed?",
+    "a": "It usually clears within kilka minut.",
+    "tags": [
+      "payment",
+      "settlement"
+    ]
+  },
+  {
+    "q": "Is paying with BLIK secure?",
+    "a": "Yes, we partner with PCI DSS certified processors.",
+    "tags": [
+      "payment",
+      "security"
+    ]
+  },
+  {
+    "q": "Will I receive an invoice when paying via BLIK?",
+    "a": "Yes, we'll email you the invoice right after the payment clears.",
+    "tags": [
+      "payment",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Can I pay with PayPal?",
+    "a": "Yes, we support this payment option. Service fee: 0 PLN.",
+    "tags": [
+      "payment",
+      "paypal"
+    ]
+  },
+  {
+    "q": "How fast is a PayPal payment confirmed?",
+    "a": "It usually clears within natychmiast.",
+    "tags": [
+      "payment",
+      "settlement"
+    ]
+  },
+  {
+    "q": "Is paying with PayPal secure?",
+    "a": "Yes, we partner with PCI DSS certified processors.",
+    "tags": [
+      "payment",
+      "security"
+    ]
+  },
+  {
+    "q": "Will I receive an invoice when paying via PayPal?",
+    "a": "Yes, we'll email you the invoice right after the payment clears.",
+    "tags": [
+      "payment",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Can I pay with Pay-later providers?",
+    "a": "Yes, we support this payment option. Service fee: 0 PLN.",
+    "tags": [
+      "payment",
+      "paypo"
+    ]
+  },
+  {
+    "q": "How fast is a Pay-later providers payment confirmed?",
+    "a": "It usually clears within po potwierdzeniu.",
+    "tags": [
+      "payment",
+      "settlement"
+    ]
+  },
+  {
+    "q": "Is paying with Pay-later providers secure?",
+    "a": "Yes, we partner with PCI DSS certified processors.",
+    "tags": [
+      "payment",
+      "security"
+    ]
+  },
+  {
+    "q": "Will I receive an invoice when paying via Pay-later providers?",
+    "a": "Yes, we'll email you the invoice right after the payment clears.",
+    "tags": [
+      "payment",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Can I pay with bank transfer?",
+    "a": "Yes, we support this payment option. Service fee: 0 PLN.",
+    "tags": [
+      "payment",
+      "bank"
+    ]
+  },
+  {
+    "q": "How fast is a bank transfer payment confirmed?",
+    "a": "It usually clears within 1 dzień roboczy.",
+    "tags": [
+      "payment",
+      "settlement"
+    ]
+  },
+  {
+    "q": "Is paying with bank transfer secure?",
+    "a": "Yes, we partner with PCI DSS certified processors.",
+    "tags": [
+      "payment",
+      "security"
+    ]
+  },
+  {
+    "q": "Will I receive an invoice when paying via bank transfer?",
+    "a": "Yes, we'll email you the invoice right after the payment clears.",
+    "tags": [
+      "payment",
+      "invoice"
+    ]
+  },
+  {
+    "q": "How many days do I have to return in case of size exchange?",
+    "a": "You have 30 calendar days from delivery.",
+    "tags": [
+      "returns"
+    ]
+  },
+  {
+    "q": "How do I request a return for size exchange?",
+    "a": "Go to the Returns tab in your account and complete the form.",
+    "tags": [
+      "returns",
+      "process"
+    ]
+  },
+  {
+    "q": "Is the return free?",
+    "a": "Yes, we include a prepaid return label once you submit the form.",
+    "tags": [
+      "returns",
+      "cost"
+    ]
+  },
+  {
+    "q": "When will I receive the refund?",
+    "a": "Refunds are processed within 5 business days after the parcel is checked in.",
+    "tags": [
+      "returns",
+      "refund"
+    ]
+  },
+  {
+    "q": "How many days do I have to return in case of gift not fitting?",
+    "a": "You have 45 calendar days from delivery.",
+    "tags": [
+      "returns"
+    ]
+  },
+  {
+    "q": "How do I request a return for gift not fitting?",
+    "a": "Go to the Returns tab in your account and complete the form.",
+    "tags": [
+      "returns",
+      "process"
+    ]
+  },
+  {
+    "q": "Is the return free?",
+    "a": "Yes, we include a prepaid return label once you submit the form.",
+    "tags": [
+      "returns",
+      "cost"
+    ]
+  },
+  {
+    "q": "When will I receive the refund?",
+    "a": "Refunds are processed within 5 business days after the parcel is checked in.",
+    "tags": [
+      "returns",
+      "refund"
+    ]
+  },
+  {
+    "q": "How many days do I have to return in case of pre-order purchase?",
+    "a": "You have 60 calendar days from delivery.",
+    "tags": [
+      "returns"
+    ]
+  },
+  {
+    "q": "How do I request a return for pre-order purchase?",
+    "a": "Go to the Returns tab in your account and complete the form.",
+    "tags": [
+      "returns",
+      "process"
+    ]
+  },
+  {
+    "q": "Is the return free?",
+    "a": "Yes, we include a prepaid return label once you submit the form.",
+    "tags": [
+      "returns",
+      "cost"
+    ]
+  },
+  {
+    "q": "When will I receive the refund?",
+    "a": "Refunds are processed within 5 business days after the parcel is checked in.",
+    "tags": [
+      "returns",
+      "refund"
+    ]
+  },
+  {
+    "q": "How many days do I have to return in case of online order?",
+    "a": "You have 14 calendar days from delivery.",
+    "tags": [
+      "returns"
+    ]
+  },
+  {
+    "q": "How do I request a return for online order?",
+    "a": "Go to the Returns tab in your account and complete the form.",
+    "tags": [
+      "returns",
+      "process"
+    ]
+  },
+  {
+    "q": "Is the return free?",
+    "a": "Yes, we include a prepaid return label once you submit the form.",
+    "tags": [
+      "returns",
+      "cost"
+    ]
+  },
+  {
+    "q": "When will I receive the refund?",
+    "a": "Refunds are processed within 5 business days after the parcel is checked in.",
+    "tags": [
+      "returns",
+      "refund"
+    ]
+  },
+  {
+    "q": "How many days do I have to return in case of B2B purchase?",
+    "a": "You have 21 calendar days from delivery.",
+    "tags": [
+      "returns"
+    ]
+  },
+  {
+    "q": "How do I request a return for B2B purchase?",
+    "a": "Go to the Returns tab in your account and complete the form.",
+    "tags": [
+      "returns",
+      "process"
+    ]
+  },
+  {
+    "q": "Is the return free?",
+    "a": "Yes, we include a prepaid return label once you submit the form.",
+    "tags": [
+      "returns",
+      "cost"
+    ]
+  },
+  {
+    "q": "When will I receive the refund?",
+    "a": "Refunds are processed within 5 business days after the parcel is checked in.",
+    "tags": [
+      "returns",
+      "refund"
+    ]
+  },
+  {
+    "q": "How does the warranty work for electronics?",
+    "a": "It lasts 24 months. File a claim via your account.",
+    "tags": [
+      "warranty"
+    ]
+  },
+  {
+    "q": "Do you offer repairs or replacements?",
+    "a": "We diagnose the item first. If a fix isn't possible, we send a replacement.",
+    "tags": [
+      "warranty",
+      "repair"
+    ]
+  },
+  {
+    "q": "Will I get a replacement unit while mine is repaired?",
+    "a": "For items above 1000 PLN we provide a temporary replacement.",
+    "tags": [
+      "warranty",
+      "replacement"
+    ]
+  },
+  {
+    "q": "How can I track my claim?",
+    "a": "Log in and open the Claims tab to see live updates.",
+    "tags": [
+      "warranty",
+      "tracking"
+    ]
+  },
+  {
+    "q": "How does the warranty work for leather goods?",
+    "a": "It lasts 12 miesięcy. File a claim via your account.",
+    "tags": [
+      "warranty"
+    ]
+  },
+  {
+    "q": "Do you offer repairs or replacements?",
+    "a": "We diagnose the item first. If a fix isn't possible, we send a replacement.",
+    "tags": [
+      "warranty",
+      "repair"
+    ]
+  },
+  {
+    "q": "Will I get a replacement unit while mine is repaired?",
+    "a": "For items above 1000 PLN we provide a temporary replacement.",
+    "tags": [
+      "warranty",
+      "replacement"
+    ]
+  },
+  {
+    "q": "How can I track my claim?",
+    "a": "Log in and open the Claims tab to see live updates.",
+    "tags": [
+      "warranty",
+      "tracking"
+    ]
+  },
+  {
+    "q": "How does the warranty work for fitness gear?",
+    "a": "It lasts 18 miesięcy. File a claim via your account.",
+    "tags": [
+      "warranty"
+    ]
+  },
+  {
+    "q": "Do you offer repairs or replacements?",
+    "a": "We diagnose the item first. If a fix isn't possible, we send a replacement.",
+    "tags": [
+      "warranty",
+      "repair"
+    ]
+  },
+  {
+    "q": "Will I get a replacement unit while mine is repaired?",
+    "a": "For items above 1000 PLN we provide a temporary replacement.",
+    "tags": [
+      "warranty",
+      "replacement"
+    ]
+  },
+  {
+    "q": "How can I track my claim?",
+    "a": "Log in and open the Claims tab to see live updates.",
+    "tags": [
+      "warranty",
+      "tracking"
+    ]
+  },
+  {
+    "q": "How does the warranty work for jewelry?",
+    "a": "It lasts 12 miesięcy. File a claim via your account.",
+    "tags": [
+      "warranty"
+    ]
+  },
+  {
+    "q": "Do you offer repairs or replacements?",
+    "a": "We diagnose the item first. If a fix isn't possible, we send a replacement.",
+    "tags": [
+      "warranty",
+      "repair"
+    ]
+  },
+  {
+    "q": "Will I get a replacement unit while mine is repaired?",
+    "a": "For items above 1000 PLN we provide a temporary replacement.",
+    "tags": [
+      "warranty",
+      "replacement"
+    ]
+  },
+  {
+    "q": "How can I track my claim?",
+    "a": "Log in and open the Claims tab to see live updates.",
+    "tags": [
+      "warranty",
+      "tracking"
+    ]
+  },
+  {
+    "q": "How does the warranty work for kids accessories?",
+    "a": "It lasts 24 months. File a claim via your account.",
+    "tags": [
+      "warranty"
+    ]
+  },
+  {
+    "q": "Do you offer repairs or replacements?",
+    "a": "We diagnose the item first. If a fix isn't possible, we send a replacement.",
+    "tags": [
+      "warranty",
+      "repair"
+    ]
+  },
+  {
+    "q": "Will I get a replacement unit while mine is repaired?",
+    "a": "For items above 1000 PLN we provide a temporary replacement.",
+    "tags": [
+      "warranty",
+      "replacement"
+    ]
+  },
+  {
+    "q": "How can I track my claim?",
+    "a": "Log in and open the Claims tab to see live updates.",
+    "tags": [
+      "warranty",
+      "tracking"
+    ]
+  },
+  {
+    "q": "Can I request an address change?",
+    "a": "If the order hasn't shipped yet, contact us via chat or email.",
+    "tags": [
+      "orders",
+      "changes"
+    ]
+  },
+  {
+    "q": "Can I cancel my order?",
+    "a": "Yes, as long as the parcel hasn't been handed to the courier.",
+    "tags": [
+      "orders",
+      "cancel"
+    ]
+  },
+  {
+    "q": "Can I change the payment method after checkout?",
+    "a": "Reach out to support and we’ll resend a new payment link.",
+    "tags": [
+      "orders",
+      "payment"
+    ]
+  },
+  {
+    "q": "How do I add my VAT/Tax number?",
+    "a": "Fill it in the Invoice details field. If the order is placed, reply to your confirmation email.",
+    "tags": [
+      "orders",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Can I request an adding another item?",
+    "a": "If the order hasn't shipped yet, contact us via chat or email.",
+    "tags": [
+      "orders",
+      "changes"
+    ]
+  },
+  {
+    "q": "Can I cancel my order?",
+    "a": "Yes, as long as the parcel hasn't been handed to the courier.",
+    "tags": [
+      "orders",
+      "cancel"
+    ]
+  },
+  {
+    "q": "Can I change the payment method after checkout?",
+    "a": "Reach out to support and we’ll resend a new payment link.",
+    "tags": [
+      "orders",
+      "payment"
+    ]
+  },
+  {
+    "q": "How do I add my VAT/Tax number?",
+    "a": "Fill it in the Invoice details field. If the order is placed, reply to your confirmation email.",
+    "tags": [
+      "orders",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Can I request an merging two orders?",
+    "a": "If the order hasn't shipped yet, contact us via chat or email.",
+    "tags": [
+      "orders",
+      "changes"
+    ]
+  },
+  {
+    "q": "Can I cancel my order?",
+    "a": "Yes, as long as the parcel hasn't been handed to the courier.",
+    "tags": [
+      "orders",
+      "cancel"
+    ]
+  },
+  {
+    "q": "Can I change the payment method after checkout?",
+    "a": "Reach out to support and we’ll resend a new payment link.",
+    "tags": [
+      "orders",
+      "payment"
+    ]
+  },
+  {
+    "q": "How do I add my VAT/Tax number?",
+    "a": "Fill it in the Invoice details field. If the order is placed, reply to your confirmation email.",
+    "tags": [
+      "orders",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Can I request an changing shipping method?",
+    "a": "If the order hasn't shipped yet, contact us via chat or email.",
+    "tags": [
+      "orders",
+      "changes"
+    ]
+  },
+  {
+    "q": "Can I cancel my order?",
+    "a": "Yes, as long as the parcel hasn't been handed to the courier.",
+    "tags": [
+      "orders",
+      "cancel"
+    ]
+  },
+  {
+    "q": "Can I change the payment method after checkout?",
+    "a": "Reach out to support and we’ll resend a new payment link.",
+    "tags": [
+      "orders",
+      "payment"
+    ]
+  },
+  {
+    "q": "How do I add my VAT/Tax number?",
+    "a": "Fill it in the Invoice details field. If the order is placed, reply to your confirmation email.",
+    "tags": [
+      "orders",
+      "invoice"
+    ]
+  },
+  {
+    "q": "Can I request an editing the gift note?",
+    "a": "If the order hasn't shipped yet, contact us via chat or email.",
+    "tags": [
+      "orders",
+      "changes"
+    ]
+  },
+  {
+    "q": "Can I cancel my order?",
+    "a": "Yes, as long as the parcel hasn't been handed to the courier.",
+    "tags": [
+      "orders",
+      "cancel"
+    ]
+  },
+  {
+    "q": "Can I change the payment method after checkout?",
+    "a": "Reach out to support and we’ll resend a new payment link.",
+    "tags": [
+      "orders",
+      "payment"
+    ]
+  },
+  {
+    "q": "How do I add my VAT/Tax number?",
+    "a": "Fill it in the Invoice details field. If the order is placed, reply to your confirmation email.",
+    "tags": [
+      "orders",
+      "invoice"
+    ]
+  },
+  {
+    "q": "How do I reach the Silver tier?",
+    "a": "Spend 500 zł within 12 months.",
+    "tags": [
+      "loyalty"
+    ]
+  },
+  {
+    "q": "What are the perks of the Silver tier?",
+    "a": "You get 5% discount.",
+    "tags": [
+      "loyalty",
+      "benefits"
+    ]
+  },
+  {
+    "q": "Do loyalty points expire?",
+    "a": "They expire after 12 months of inactivity.",
+    "tags": [
+      "loyalty",
+      "points"
+    ]
+  },
+  {
+    "q": "Can I move points to another account?",
+    "a": "No, points stay with the account that earned them.",
+    "tags": [
+      "loyalty",
+      "accounts"
+    ]
+  },
+  {
+    "q": "How do I reach the Gold tier?",
+    "a": "Spend 1200 zł within 12 months.",
+    "tags": [
+      "loyalty"
+    ]
+  },
+  {
+    "q": "What are the perks of the Gold tier?",
+    "a": "You get 10% off + free shipping.",
+    "tags": [
+      "loyalty",
+      "benefits"
+    ]
+  },
+  {
+    "q": "Do loyalty points expire?",
+    "a": "They expire after 12 months of inactivity.",
+    "tags": [
+      "loyalty",
+      "points"
+    ]
+  },
+  {
+    "q": "Can I move points to another account?",
+    "a": "No, points stay with the account that earned them.",
+    "tags": [
+      "loyalty",
+      "accounts"
+    ]
+  },
+  {
+    "q": "How do I reach the Platinum tier?",
+    "a": "Spend 2500 zł within 12 months.",
+    "tags": [
+      "loyalty"
+    ]
+  },
+  {
+    "q": "What are the perks of the Platinum tier?",
+    "a": "You get 15% off & VIP hotline.",
+    "tags": [
+      "loyalty",
+      "benefits"
+    ]
+  },
+  {
+    "q": "Do loyalty points expire?",
+    "a": "They expire after 12 months of inactivity.",
+    "tags": [
+      "loyalty",
+      "points"
+    ]
+  },
+  {
+    "q": "Can I move points to another account?",
+    "a": "No, points stay with the account that earned them.",
+    "tags": [
+      "loyalty",
+      "accounts"
+    ]
+  },
+  {
+    "q": "How do I reach the Creator tier?",
+    "a": "Spend 5000 zł within 12 months.",
+    "tags": [
+      "loyalty"
+    ]
+  },
+  {
+    "q": "What are the perks of the Creator tier?",
+    "a": "You get dedicated concierge.",
+    "tags": [
+      "loyalty",
+      "benefits"
+    ]
+  },
+  {
+    "q": "Do loyalty points expire?",
+    "a": "They expire after 12 months of inactivity.",
+    "tags": [
+      "loyalty",
+      "points"
+    ]
+  },
+  {
+    "q": "Can I move points to another account?",
+    "a": "No, points stay with the account that earned them.",
+    "tags": [
+      "loyalty",
+      "accounts"
+    ]
+  },
+  {
+    "q": "Will the sold-out size return?",
+    "a": "Leave your email in the notify module and we’ll alert you.",
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "q": "How can I check stock levels?",
+    "a": "The product page shows real-time availability and low-stock badges.",
+    "tags": [
+      "stock",
+      "status"
+    ]
+  },
+  {
+    "q": "Can I reserve an item?",
+    "a": "Yes, we hold it for 24h once the deposit is paid.",
+    "tags": [
+      "stock",
+      "reservation"
+    ]
+  },
+  {
+    "q": "Do you take wholesale orders?",
+    "a": "Contact our B2B desk and we’ll craft a quote.",
+    "tags": [
+      "stock",
+      "b2b"
+    ]
+  },
+  {
+    "q": "Will the upcoming collection return?",
+    "a": "Leave your email in the notify module and we’ll alert you.",
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "q": "How can I check stock levels?",
+    "a": "The product page shows real-time availability and low-stock badges.",
+    "tags": [
+      "stock",
+      "status"
+    ]
+  },
+  {
+    "q": "Can I reserve an item?",
+    "a": "Yes, we hold it for 24h once the deposit is paid.",
+    "tags": [
+      "stock",
+      "reservation"
+    ]
+  },
+  {
+    "q": "Do you take wholesale orders?",
+    "a": "Contact our B2B desk and we’ll craft a quote.",
+    "tags": [
+      "stock",
+      "b2b"
+    ]
+  },
+  {
+    "q": "Will the limited edition return?",
+    "a": "Leave your email in the notify module and we’ll alert you.",
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "q": "How can I check stock levels?",
+    "a": "The product page shows real-time availability and low-stock badges.",
+    "tags": [
+      "stock",
+      "status"
+    ]
+  },
+  {
+    "q": "Can I reserve an item?",
+    "a": "Yes, we hold it for 24h once the deposit is paid.",
+    "tags": [
+      "stock",
+      "reservation"
+    ]
+  },
+  {
+    "q": "Do you take wholesale orders?",
+    "a": "Contact our B2B desk and we’ll craft a quote.",
+    "tags": [
+      "stock",
+      "b2b"
+    ]
+  },
+  {
+    "q": "Will the custom product return?",
+    "a": "Leave your email in the notify module and we’ll alert you.",
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "q": "How can I check stock levels?",
+    "a": "The product page shows real-time availability and low-stock badges.",
+    "tags": [
+      "stock",
+      "status"
+    ]
+  },
+  {
+    "q": "Can I reserve an item?",
+    "a": "Yes, we hold it for 24h once the deposit is paid.",
+    "tags": [
+      "stock",
+      "reservation"
+    ]
+  },
+  {
+    "q": "Do you take wholesale orders?",
+    "a": "Contact our B2B desk and we’ll craft a quote.",
+    "tags": [
+      "stock",
+      "b2b"
+    ]
+  },
+  {
+    "q": "Will the digital products return?",
+    "a": "Leave your email in the notify module and we’ll alert you.",
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "q": "How can I check stock levels?",
+    "a": "The product page shows real-time availability and low-stock badges.",
+    "tags": [
+      "stock",
+      "status"
+    ]
+  },
+  {
+    "q": "Can I reserve an item?",
+    "a": "Yes, we hold it for 24h once the deposit is paid.",
+    "tags": [
+      "stock",
+      "reservation"
+    ]
+  },
+  {
+    "q": "Do you take wholesale orders?",
+    "a": "Contact our B2B desk and we’ll craft a quote.",
+    "tags": [
+      "stock",
+      "b2b"
+    ]
+  },
+  {
+    "q": "How can I reach you via website chat?",
+    "a": "We're available 09:00–21:00 (CEST).",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "q": "Do you offer English-speaking support?",
+    "a": "Yes, switch the chat widget language to English.",
+    "tags": [
+      "support",
+      "language"
+    ]
+  },
+  {
+    "q": "How can I reach you via Instagram DM?",
+    "a": "We're available 10:00–22:00 (CEST).",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "q": "Do you offer English-speaking support?",
+    "a": "Yes, switch the chat widget language to English.",
+    "tags": [
+      "support",
+      "language"
+    ]
+  },
+  {
+    "q": "How can I reach you via TikTok DM?",
+    "a": "We're available 10:00–22:00 (CEST).",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "q": "Do you offer English-speaking support?",
+    "a": "Yes, switch the chat widget language to English.",
+    "tags": [
+      "support",
+      "language"
+    ]
+  },
+  {
+    "q": "How can I reach you via phone line?",
+    "a": "We're available 09:00–17:00 (CEST).",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "q": "Do you offer English-speaking support?",
+    "a": "Yes, switch the chat widget language to English.",
+    "tags": [
+      "support",
+      "language"
+    ]
+  },
+  {
+    "q": "How can I reach you via support email?",
+    "a": "We're available 24/7 (CEST).",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "q": "Do you offer English-speaking support?",
+    "a": "Yes, switch the chat widget language to English.",
+    "tags": [
+      "support",
+      "language"
+    ]
+  },
+  {
+    "q": "Can I add a personal note?",
+    "a": "Yes, tick the Gift wrapping option in the cart.",
+    "tags": [
+      "packaging"
+    ]
+  },
+  {
+    "q": "Is gift wrapping free?",
+    "a": "The first wrap is free, extra sets cost 9.99 PLN.",
+    "tags": [
+      "packaging",
+      "cost"
+    ]
+  },
+  {
+    "q": "Do you include a receipt inside the gift?",
+    "a": "No, receipts are emailed only.",
+    "tags": [
+      "packaging",
+      "receipt"
+    ]
+  },
+  {
+    "q": "Can I choose the delivery date for a gift?",
+    "a": "Yes, mention your preferred date in the order note.",
+    "tags": [
+      "packaging",
+      "delivery"
+    ]
+  },
+  {
+    "q": "Can I add a gift wrapping?",
+    "a": "Yes, tick the Gift wrapping option in the cart.",
+    "tags": [
+      "packaging"
+    ]
+  },
+  {
+    "q": "Is gift wrapping free?",
+    "a": "The first wrap is free, extra sets cost 9.99 PLN.",
+    "tags": [
+      "packaging",
+      "cost"
+    ]
+  },
+  {
+    "q": "Do you include a receipt inside the gift?",
+    "a": "No, receipts are emailed only.",
+    "tags": [
+      "packaging",
+      "receipt"
+    ]
+  },
+  {
+    "q": "Can I choose the delivery date for a gift?",
+    "a": "Yes, mention your preferred date in the order note.",
+    "tags": [
+      "packaging",
+      "delivery"
+    ]
+  },
+  {
+    "q": "Can I add a eco packaging?",
+    "a": "Yes, tick the Gift wrapping option in the cart.",
+    "tags": [
+      "packaging"
+    ]
+  },
+  {
+    "q": "Is gift wrapping free?",
+    "a": "The first wrap is free, extra sets cost 9.99 PLN.",
+    "tags": [
+      "packaging",
+      "cost"
+    ]
+  },
+  {
+    "q": "Do you include a receipt inside the gift?",
+    "a": "No, receipts are emailed only.",
+    "tags": [
+      "packaging",
+      "receipt"
+    ]
+  },
+  {
+    "q": "Can I choose the delivery date for a gift?",
+    "a": "Yes, mention your preferred date in the order note.",
+    "tags": [
+      "packaging",
+      "delivery"
+    ]
+  },
+  {
+    "q": "Can I add a gift bag?",
+    "a": "Yes, tick the Gift wrapping option in the cart.",
+    "tags": [
+      "packaging"
+    ]
+  },
+  {
+    "q": "Is gift wrapping free?",
+    "a": "The first wrap is free, extra sets cost 9.99 PLN.",
+    "tags": [
+      "packaging",
+      "cost"
+    ]
+  },
+  {
+    "q": "Do you include a receipt inside the gift?",
+    "a": "No, receipts are emailed only.",
+    "tags": [
+      "packaging",
+      "receipt"
+    ]
+  },
+  {
+    "q": "Can I choose the delivery date for a gift?",
+    "a": "Yes, mention your preferred date in the order note.",
+    "tags": [
+      "packaging",
+      "delivery"
+    ]
+  },
+  {
+    "q": "Can I add a collector stickers?",
+    "a": "Yes, tick the Gift wrapping option in the cart.",
+    "tags": [
+      "packaging"
+    ]
+  },
+  {
+    "q": "Is gift wrapping free?",
+    "a": "The first wrap is free, extra sets cost 9.99 PLN.",
+    "tags": [
+      "packaging",
+      "cost"
+    ]
+  },
+  {
+    "q": "Do you include a receipt inside the gift?",
+    "a": "No, receipts are emailed only.",
+    "tags": [
+      "packaging",
+      "receipt"
+    ]
+  },
+  {
+    "q": "Can I choose the delivery date for a gift?",
+    "a": "Yes, mention your preferred date in the order note.",
+    "tags": [
+      "packaging",
+      "delivery"
+    ]
+  },
+  {
+    "q": "will I receive a tracking link?",
+    "a": "Yes, we email the link as soon as the parcel is handed to the carrier.",
+    "tags": [
+      "tracking"
+    ]
+  },
+  {
+    "q": "Can I reschedule delivery via the tracking link?",
+    "a": "Yes, the carrier lets you pick a new date or update the address.",
+    "tags": [
+      "tracking",
+      "changes"
+    ]
+  },
+  {
+    "q": "do you send delivery SMS alerts?",
+    "a": "Yes, we email the link as soon as the parcel is handed to the carrier.",
+    "tags": [
+      "tracking"
+    ]
+  },
+  {
+    "q": "Can I reschedule delivery via the tracking link?",
+    "a": "Yes, the carrier lets you pick a new date or update the address.",
+    "tags": [
+      "tracking",
+      "changes"
+    ]
+  },
+  {
+    "q": "what does the preparing status mean?",
+    "a": "Yes, we email the link as soon as the parcel is handed to the carrier.",
+    "tags": [
+      "tracking"
+    ]
+  },
+  {
+    "q": "Can I reschedule delivery via the tracking link?",
+    "a": "Yes, the carrier lets you pick a new date or update the address.",
+    "tags": [
+      "tracking",
+      "changes"
+    ]
+  },
+  {
+    "q": "can my order arrive in multiple parcels?",
+    "a": "Yes, we email the link as soon as the parcel is handed to the carrier.",
+    "tags": [
+      "tracking"
+    ]
+  },
+  {
+    "q": "Can I reschedule delivery via the tracking link?",
+    "a": "Yes, the carrier lets you pick a new date or update the address.",
+    "tags": [
+      "tracking",
+      "changes"
+    ]
+  },
+  {
+    "q": "what if tracking is not updating?",
+    "a": "Yes, we email the link as soon as the parcel is handed to the carrier.",
+    "tags": [
+      "tracking"
+    ]
+  },
+  {
+    "q": "Can I reschedule delivery via the tracking link?",
+    "a": "Yes, the carrier lets you pick a new date or update the address.",
+    "tags": [
+      "tracking",
+      "changes"
+    ]
+  }
+]

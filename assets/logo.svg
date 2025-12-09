@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="qaGradient" x1="-10%" y1="0%" x2="110%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="qaGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feOffset dy="6" result="offset"/>
+      <feGaussianBlur in="offset" stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.08 0 0 0 0 0.12 0 0 0 0 0.25 0 0 0 0.35 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#qaGlow)">
+    <circle cx="60" cy="60" r="48" fill="url(#qaGradient)"/>
+    <circle cx="60" cy="60" r="47" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="2"/>
+  </g>
+
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central"
+        font-family="Inter,'Segoe UI',system-ui,sans-serif" font-size="42" font-weight="700"
+        fill="#ffffff" letter-spacing="0.08em">
+    QA
+  </text>
+</svg>
