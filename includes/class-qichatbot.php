@@ -18,6 +18,7 @@ class QI_Chatbot {
     private function __construct() {
         add_action('admin_menu', [$this, 'register_admin_menu']);
         add_action('admin_init', [$this, 'register_settings']);
+        add_action('admin_init', [$this, 'remove_legacy_browser_secrets']);
         add_action('rest_api_init', [$this, 'register_rest_routes']);
         add_action('wp_enqueue_scripts', [$this, 'enqueue_assets']);
         add_action('wp_footer', [$this, 'render_widget_root']);
@@ -31,15 +32,36 @@ class QI_Chatbot {
             'theme_color' => '#0f172a',
             'api_endpoint' => 'https://app.quantumowner.ai/api/quantumbot',
             'logo_url' => QICHATBOT_URL . 'assets/logo.svg',
-            'ai_key' => '',
-            'woo_consumer_key' => '',
-            'woo_consumer_secret' => '',
         ];
     }
 
     private function get_options() {
         $saved = get_option($this->option_key, []);
         return wp_parse_args(is_array($saved) ? $saved : [], $this->defaults());
+    }
+
+    public function remove_legacy_browser_secrets() {
+        if (!current_user_can('manage_options')) {
+            return;
+        }
+
+        $saved = get_option($this->option_key, []);
+        if (!is_array($saved)) {
+            return;
+        }
+
+        $legacy_keys = ['ai_key', 'woo_consumer_key', 'woo_consumer_secret'];
+        $changed = false;
+        foreach ($legacy_keys as $key) {
+            if (array_key_exists($key, $saved)) {
+                unset($saved[$key]);
+                $changed = true;
+            }
+        }
+
+        if ($changed) {
+            update_option($this->option_key, $saved, false);
+        }
     }
 
     public function register_admin_menu() {
@@ -61,29 +83,25 @@ class QI_Chatbot {
             if (!in_array($locale, ['auto', 'pl', 'en'], true)) {
                 $locale = 'auto';
             }
+
             $theme = isset($value['theme_color']) ? sanitize_hex_color($value['theme_color']) : '';
             if (!$theme) {
                 $theme = $defaults['theme_color'];
             }
-            $apiEndpoint = '';
-            if (!empty($value['api_endpoint'])) {
-                $apiEndpoint = esc_url_raw($value['api_endpoint']);
-            }
-            if (!$apiEndpoint) {
-                $apiEndpoint = $defaults['api_endpoint'];
+
+            $api_endpoint = !empty($value['api_endpoint']) ? esc_url_raw($value['api_endpoint']) : '';
+            if (!$api_endpoint || 0 !== strpos($api_endpoint, 'https://')) {
+                $api_endpoint = $defaults['api_endpoint'];
             }
 
             $clean = [
                 'site_id' => isset($value['site_id']) ? sanitize_text_field($value['site_id']) : '',
                 'default_locale' => $locale,
                 'theme_color' => $theme,
-                'api_endpoint' => $apiEndpoint,
+                'api_endpoint' => $api_endpoint,
                 'logo_url' => isset($value['logo_url']) ? esc_url_raw($value['logo_url']) : $defaults['logo_url'],
-                'ai_key' => isset($value['ai_key']) ? sanitize_text_field($value['ai_key']) : '',
-                'woo_consumer_key' => isset($value['woo_consumer_key']) ? sanitize_text_field($value['woo_consumer_key']) : '',
-                'woo_consumer_secret' => isset($value['woo_consumer_secret']) ? sanitize_text_field($value['woo_consumer_secret']) : '',
             ];
-            $clean['default_locale'] = $clean['default_locale'] ?: 'auto';
+
             return wp_parse_args($clean, $defaults);
         });
     }
@@ -95,7 +113,11 @@ class QI_Chatbot {
         $options = $this->get_options();
         ?>
         <div class="wrap">
-            <p><?php esc_html_e('Uzupelnij identyfikator Workspace oraz opcjonalne klucze, aby polaczyc sklep z Quantum Assist.', 'qi-chatbot'); ?></p>
+            <h1><?php esc_html_e('QI Chatbot', 'qi-chatbot'); ?></h1>
+            <p><?php esc_html_e('Configure the public widget and its server-side QuantumSpace workspace.', 'qi-chatbot'); ?></p>
+            <div class="notice notice-info inline">
+                <p><?php esc_html_e('Provider and WooCommerce secrets are never sent to the browser. Configure private credentials only in the server-side AI backend.', 'qi-chatbot'); ?></p>
+            </div>
             <form action="options.php" method="post">
                 <?php settings_fields($this->option_key); ?>
                 <table class="form-table" role="presentation">
@@ -104,39 +126,25 @@ class QI_Chatbot {
                         <td><input type="text" id="qi-chatbot-site-id" name="<?php echo esc_attr($this->option_key); ?>[site_id]" value="<?php echo esc_attr($options['site_id']); ?>" class="regular-text"/></td>
                     </tr>
                     <tr>
-                        <th scope="row"><label for="qi-chatbot-locale"><?php esc_html_e('Domyslny jezyk', 'qi-chatbot'); ?></label></th>
+                        <th scope="row"><label for="qi-chatbot-locale"><?php esc_html_e('Default language', 'qi-chatbot'); ?></label></th>
                         <td>
                             <select id="qi-chatbot-locale" name="<?php echo esc_attr($this->option_key); ?>[default_locale]">
-                                <option value="auto" <?php selected($options['default_locale'], 'auto'); ?>><?php esc_html_e('Automatycznie', 'qi-chatbot'); ?></option>
+                                <option value="auto" <?php selected($options['default_locale'], 'auto'); ?>><?php esc_html_e('Automatic', 'qi-chatbot'); ?></option>
                                 <option value="pl" <?php selected($options['default_locale'], 'pl'); ?>>Polski</option>
                                 <option value="en" <?php selected($options['default_locale'], 'en'); ?>>English</option>
                             </select>
                         </td>
                     </tr>
                     <tr>
-                        <th scope="row"><label for="qi-chatbot-theme"><?php esc_html_e('Kolor motywu', 'qi-chatbot'); ?></label></th>
+                        <th scope="row"><label for="qi-chatbot-theme"><?php esc_html_e('Theme color', 'qi-chatbot'); ?></label></th>
                         <td><input type="text" id="qi-chatbot-theme" name="<?php echo esc_attr($this->option_key); ?>[theme_color]" value="<?php echo esc_attr($options['theme_color']); ?>" class="regular-text"/></td>
                     </tr>
                     <tr>
-                        <th scope="row"><label for="qi-chatbot-api"><?php esc_html_e('Endpoint API (opcjonalnie)', 'qi-chatbot'); ?></label></th>
+                        <th scope="row"><label for="qi-chatbot-api"><?php esc_html_e('Server-side AI endpoint', 'qi-chatbot'); ?></label></th>
                         <td><input type="url" id="qi-chatbot-api" name="<?php echo esc_attr($this->option_key); ?>[api_endpoint]" value="<?php echo esc_attr($options['api_endpoint']); ?>" class="regular-text" placeholder="https://app.quantumowner.ai/api/quantumbot"/></td>
                     </tr>
                     <tr>
-                        <th scope="row"><label for="qi-chatbot-ai-key"><?php esc_html_e('Klucz AI (opcjonalnie)', 'qi-chatbot'); ?></label></th>
-                        <td><input type="text" id="qi-chatbot-ai-key" name="<?php echo esc_attr($this->option_key); ?>[ai_key]" value="<?php echo esc_attr($options['ai_key']); ?>" class="regular-text" placeholder="sk-..."/></td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><?php esc_html_e('WooCommerce API', 'qi-chatbot'); ?></th>
-                        <td>
-                            <p><?php esc_html_e('Podaj własne Consumer Key i Consumer Secret wygenerowane w WooCommerce > Ustawienia > Zaawansowane > REST API. Klucze umożliwią chatbotowi pobranie danych sklepu (produkty, wysyłka, płatności).', 'qi-chatbot'); ?></p>
-                            <label for="qi-chatbot-woo-key"><?php esc_html_e('Consumer Key', 'qi-chatbot'); ?></label><br/>
-                            <input type="text" id="qi-chatbot-woo-key" name="<?php echo esc_attr($this->option_key); ?>[woo_consumer_key]" value="<?php echo esc_attr($options['woo_consumer_key']); ?>" class="regular-text" placeholder="ck_xxxxxxxxx" /><br/><br/>
-                            <label for="qi-chatbot-woo-secret"><?php esc_html_e('Consumer Secret', 'qi-chatbot'); ?></label><br/>
-                            <input type="text" id="qi-chatbot-woo-secret" name="<?php echo esc_attr($this->option_key); ?>[woo_consumer_secret]" value="<?php echo esc_attr($options['woo_consumer_secret']); ?>" class="regular-text" placeholder="cs_xxxxxxxxx" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><label for="qi-chatbot-logo"><?php esc_html_e('Logo (opcjonalnie)', 'qi-chatbot'); ?></label></th>
+                        <th scope="row"><label for="qi-chatbot-logo"><?php esc_html_e('Logo URL', 'qi-chatbot'); ?></label></th>
                         <td><input type="url" id="qi-chatbot-logo" name="<?php echo esc_attr($this->option_key); ?>[logo_url]" value="<?php echo esc_attr($options['logo_url']); ?>" class="regular-text"/></td>
                     </tr>
                 </table>
@@ -159,11 +167,10 @@ class QI_Chatbot {
     }
 
     public function handle_faq() {
-        $options = $this->get_options();
         $pl = $this->read_json(QICHATBOT_PATH . 'assets/json/faq-pl.json');
         $en = $this->read_json(QICHATBOT_PATH . 'assets/json/faq-en.json');
-        $pl = $this->merge_store_faq($pl, 'pl', $options);
-        $en = $this->merge_store_faq($en, 'en', $options);
+        $pl = $this->merge_store_faq($pl, 'pl');
+        $en = $this->merge_store_faq($en, 'en');
 
         return rest_ensure_response([
             'pl' => $pl,
@@ -171,12 +178,12 @@ class QI_Chatbot {
         ]);
     }
 
-    private function merge_store_faq(array $base, $locale, array $options) {
-        $storeFaq = $this->build_store_faq($locale, $options);
-        if (empty($storeFaq)) {
+    private function merge_store_faq(array $base, $locale) {
+        $store_faq = $this->build_store_faq($locale);
+        if (empty($store_faq)) {
             return $base;
         }
-        return array_merge($storeFaq, $base);
+        return array_merge($store_faq, $base);
     }
 
     private function read_json($path) {
@@ -204,8 +211,6 @@ class QI_Chatbot {
             'logoUrl' => $options['logo_url'],
             'faqEndpoint' => rest_url('qichatbot/v1/faq'),
             'fuseUrl' => QICHATBOT_URL . 'assets/js/fuse.min.js',
-            'aiKey' => $options['ai_key'],
-            'wooKeys' => $this->prepare_woo_keys_payload($options),
             'storeUrl' => home_url('/'),
             'storeSnapshot' => $this->get_store_snapshot(),
         ];
@@ -230,20 +235,7 @@ class QI_Chatbot {
         return $links;
     }
 
-    private function prepare_woo_keys_payload($options) {
-        if (empty($options['woo_consumer_key']) || empty($options['woo_consumer_secret'])) {
-            return null;
-        }
-        return [
-            'consumerKey' => $options['woo_consumer_key'],
-            'consumerSecret' => $options['woo_consumer_secret'],
-        ];
-    }
-
-    private function build_store_faq($locale, $options) {
-        if (empty($options['woo_consumer_key']) || empty($options['woo_consumer_secret'])) {
-            return [];
-        }
+    private function build_store_faq($locale) {
         $snapshot = $this->get_store_snapshot();
         if (!$snapshot) {
             return [];
@@ -251,19 +243,19 @@ class QI_Chatbot {
 
         $shipping = empty($snapshot['shipping_methods']) ? [] : $snapshot['shipping_methods'];
         $payments = empty($snapshot['payment_methods']) ? [] : $snapshot['payment_methods'];
-        $topProducts = empty($snapshot['top_products']) ? [] : $snapshot['top_products'];
+        $top_products = empty($snapshot['top_products']) ? [] : $snapshot['top_products'];
 
-        if ($locale === 'pl') {
+        if ('pl' === $locale) {
             $entries = [
                 [
                     'q' => sprintf(__('Jakie metody platnosci akceptuje %s?', 'qi-chatbot'), $snapshot['store_name']),
-                    'a' => $payments ? sprintf(__('Akceptujemy: %s.', 'qi-chatbot'), implode(', ', $payments)) : __('Obecnie akceptujemy standardowe platnosci dostepne w Twoim koszyku.', 'qi-chatbot'),
+                    'a' => $payments ? sprintf(__('Akceptujemy: %s.', 'qi-chatbot'), implode(', ', $payments)) : __('Obecnie akceptujemy standardowe platnosci dostepne w koszyku.', 'qi-chatbot'),
                     'aliases' => ['platnosci', 'platnosc', 'placenie'],
                     'tags' => ['payments', 'sklep'],
                 ],
                 [
                     'q' => __('Jak wysylamy zamowienia?', 'qi-chatbot'),
-                    'a' => $shipping ? sprintf(__('Wysylka realizowana jest przez: %s.', 'qi-chatbot'), implode(', ', $shipping)) : __('Standardowa dostawa kurierska realizowana jest natychmiast po spakowaniu.', 'qi-chatbot'),
+                    'a' => $shipping ? sprintf(__('Wysylka realizowana jest przez: %s.', 'qi-chatbot'), implode(', ', $shipping)) : __('Dostepne metody wysylki sa widoczne w koszyku.', 'qi-chatbot'),
                     'aliases' => ['wysylka', 'dostawa', 'kurier'],
                     'tags' => ['shipping', 'sklep'],
                 ],
@@ -275,10 +267,10 @@ class QI_Chatbot {
                 ],
             ];
 
-            if ($topProducts) {
+            if ($top_products) {
                 $entries[] = [
                     'q' => __('Jakie produkty sprzedaja sie najlepiej?', 'qi-chatbot'),
-                    'a' => sprintf(__('Klienci najczesciej wybieraja: %s.', 'qi-chatbot'), implode(', ', $topProducts)),
+                    'a' => sprintf(__('Klienci najczesciej wybieraja: %s.', 'qi-chatbot'), implode(', ', $top_products)),
                     'aliases' => ['bestsellery', 'najbardziej popularne'],
                     'tags' => ['products'],
                 ];
@@ -286,18 +278,16 @@ class QI_Chatbot {
             return $entries;
         }
 
-
-
         $entries = [
             [
                 'q' => sprintf(__('Which payment methods does %s accept?', 'qi-chatbot'), $snapshot['store_name']),
-                'a' => $payments ? sprintf(__('We currently accept: %s.', 'qi-chatbot'), implode(', ', $payments)) : __('We accept the payment methods you see at checkout.', 'qi-chatbot'),
+                'a' => $payments ? sprintf(__('We currently accept: %s.', 'qi-chatbot'), implode(', ', $payments)) : __('Available payment methods are shown at checkout.', 'qi-chatbot'),
                 'aliases' => ['payment', 'pay', 'methods'],
                 'tags' => ['payments', 'store'],
             ],
             [
                 'q' => __('How do you ship orders?', 'qi-chatbot'),
-                'a' => $shipping ? sprintf(__('Orders are shipped via: %s.', 'qi-chatbot'), implode(', ', $shipping)) : __('Standard courier shipping is dispatched as soon as we pack your order.', 'qi-chatbot'),
+                'a' => $shipping ? sprintf(__('Orders are shipped via: %s.', 'qi-chatbot'), implode(', ', $shipping)) : __('Available delivery methods are shown at checkout.', 'qi-chatbot'),
                 'aliases' => ['shipping', 'delivery', 'carrier'],
                 'tags' => ['shipping', 'store'],
             ],
@@ -309,10 +299,10 @@ class QI_Chatbot {
             ],
         ];
 
-        if ($topProducts) {
+        if ($top_products) {
             $entries[] = [
                 'q' => __('What are your best sellers?', 'qi-chatbot'),
-                'a' => sprintf(__('Our current best sellers are: %s.', 'qi-chatbot'), implode(', ', $topProducts)),
+                'a' => sprintf(__('Our current best sellers are: %s.', 'qi-chatbot'), implode(', ', $top_products)),
                 'aliases' => ['popular items', 'topsellers'],
                 'tags' => ['products'],
             ];
@@ -367,7 +357,3 @@ class QI_Chatbot {
         return $snapshot;
     }
 }
-
-
-
-
